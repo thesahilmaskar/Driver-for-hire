@@ -1,0 +1,35 @@
+<!-- public/driver.html -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Driver Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Driver Dashboard</h2>
+
+  <h3>Pending Ride Requests</h3>
+  <ul id="rideList"></ul>
+
+  <script>
+    async function fetchRides() {
+      const res = await fetch('/pending-rides');
+      const rides = await res.json();
+      const list = document.getElementById('rideList');
+      list.innerHTML = '';
+      rides.forEach(ride => {
+        const li = document.createElement('li');
+        li.innerHTML = `
+          From <b>${ride.pickup}</b> to <b>${ride.destination}</b> by <i>${ride.passenger}</i>
+          <form action="/accept-ride" method="POST" style="display:inline;">
+            <input type="hidden" name="rideId" value="${ride.id}">
+            <button type="submit">Accept</button>
+          </form>
+        `;
+        list.appendChild(li);
+      });
+    }
+    fetchRides();
+  </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+[
+  {
+    "username": "sahil",
+    "password": "Sahil@01",
+    "role": "Passenger"
+  },
+  {
+    "username": "kunal",
+    "password": "kunal",
+    "role": "Driver"
+  },
+  {
+    "username": "sakshi",
+    "password": "sakshi",
+    "role": "Passenger"
+  },
+  {
+    "username": "shubham",
+    "password": "123456",
+    "role": "Driver"
+  }
+]
