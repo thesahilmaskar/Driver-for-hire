@@ -37,7 +37,7 @@ Watch the full walkthrough and explanation of the project here:
    git clone https://github.com/thesahilmaskar/Driver-for-hire.git
    cd Driver-for-hire
 2. **npm install**  
-3  **node server.js**  
-4  **http://localhost:3000**  
+3.  **node server.js**  
+4.  **http://localhost:3000**  
 
 
