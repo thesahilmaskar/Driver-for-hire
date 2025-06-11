@@ -40,16 +40,6 @@ Edit
 
 ---
 
-## 🔑 Credentials for Testing
-
-**Admin Login**
-- Username: `admin`
-- Password: `admin123`
-
-**User Login**
-- Sign up from the registration page
-
----
 
 ## 📌 How to Run
 
@@ -57,8 +47,8 @@ Edit
    ```bash
    git clone https://github.com/thesahilmaskar/Driver-for-hire.git
    cd Driver-for-hire
--npm install
--node server.js
--http://localhost:3000
+-npm install.
+-node server.js.
+-http://localhost:3000.
 
 
