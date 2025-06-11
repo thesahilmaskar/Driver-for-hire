@@ -25,17 +25,6 @@ Watch the full walkthrough and explanation of the project here:
 - User Sign Up / Login / Logout
 - Book a driver
 - View booking history
-- Admin dashboard:
-  - View and manage all users
-  - View and assign drivers
-  - View bookings
-
----
-
-
-yaml
-Copy
-Edit
 
 
 ---
