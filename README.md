@@ -32,21 +32,6 @@ Watch the full walkthrough and explanation of the project here:
 
 ---
 
-## 📂 Project Structure
-Driver-for-hire/
-├── public/
-│ ├── css/
-│ │ └── styles.css # Custom UI styling
-│ └── js/
-├── views/
-│ ├── index.html # Home Page
-│ ├── login.html # User Login
-│ ├── register.html # User Registration
-│ ├── dashboard.html # Admin/User Dashboard
-├── users.json # Stores user and driver data
-├── bookings.json # Stores booking history
-├── server.js # Main backend server logic
-├── package.json
 
 yaml
 Copy
@@ -72,8 +57,8 @@ Edit
    ```bash
    git clone https://github.com/thesahilmaskar/Driver-for-hire.git
    cd Driver-for-hire
-npm install
-node server.js
-http://localhost:3000
+-npm install
+-node server.js
+-http://localhost:3000
 
 
